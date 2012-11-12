@@ -7,3 +7,10 @@
 ## URL
 http://webtra2012.web.fc2.com/
 上記のURLで参照できます
+
+### Webクリエイター育成講座2012in沖縄
+2012/10/22 制作実績
+自分たち流のHTMLタグ辞典サイトを制作してみよう
+
+http://weva.hotcom-web.com/
+
