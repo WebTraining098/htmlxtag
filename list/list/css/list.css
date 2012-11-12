@@ -6,29 +6,36 @@ body{
 }
 -----------------#wrapper-------------------
 #wrapper {
-	width: 960px;
+	margin: 0px auto;
 	height: auto;
-	background-color: #FFF;
-	margin: 0px auto 30px;
+	width: 960px;
+	background: #FFF;
 }
 -----------------#header-------------------
-
-#hedder .sitemap {
-	float: right;
-}
-#hedder .title {
+.title {
 	float: left;
-	margin-top: -10px;
+	height: 150px;
+	width: 400px;
+	margin: -10px 0px 0px;
+}
+.sitemap a {
+	background: url(../images/hedder/sitemap.png) no-repeat;
+	float: right;
+	height: 116px;
+	width: 180px;
+	margin: 25px 0px 0px;
+}
+.sitemap a:hover{
+position:relative;
+top:3px;
+left:3px;
 }
 -----------------#side menu-------------------
-#wrapper #side-menu #side-navi {
+#side-navi {
 	width: 210px;
 	margin-right: 30px;
 }
-#list1 a {
-}
-
-#wrapper #side-menu #side-navi li {
+#side-navi li {
 	height: 38px;
 	width:180px;
 	padding-left: 20px;
@@ -37,124 +44,124 @@ body{
 	border-left: 10px solid #00027f;
 	margin-left: 10px;
 }
-#wrapper #side-menu #side-navi ul #basics a {
+#basics a {
 	background: url(../images/list_button/basics_off.png) no-repeat center;
 	display: block;
 	height: 40px;
 	width: 160px;
 }
+#header {
+	background: url(../images/hedder/title_under.png);
+	margin: 50px auto 0px;
+	height: 150px;
+	width: 960px;
+}
 
-#wrapper #side-menu #side-navi ul #basics a:hover {
+#basics a:hover {
 	background-image:url(../images/list_button/basics_on.png);
 	background-repeat:no-repeat;
 	
 }
-
-#wrapper #side-menu #side-navi ul #text a {
+#text a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/text_off.png) no-repeat center;
 }
-
-#wrapper #side-menu #side-navi ul #text a:hover {
+#text a:hover {
 	background-image:url(../images/list_button/text_on.png);
 	background-repeat:no-repeat;
 	
 }
-
-#wrapper #side-menu #side-navi ul #font a {
+#font a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/font_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #font a:hover {
+#font a:hover {
 	background-image:url(../images/list_button/font_on.png);
 	background-repeat:no-repeat;
 }
-
-#wrapper #side-menu #side-navi ul #pagelayout a {
+#pagelayout a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/page_off.png) no-repeat center;
 }
-
-#wrapper #side-menu #side-navi ul #pagelayout a:hover {
+#pagelayout a:hover {
 	background-image:url(../images/list_button/page_on.png);
 	background-repeat:no-repeat;
 }
-
-#wrapper #side-menu #side-navi ul #image a {
+#image a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/images_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #image a:hover {
+#image a:hover {
 	background-image:url(../images/list_button/images_on.png);
 	background-repeat:no-repeat;
 }
 
-#wrapper #side-menu #side-navi ul #link a {
+#link a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/link_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #link a:hover {
+#link a:hover {
 	background-image:url(../images/list_button/link_on.png);
 	background-repeat:no-repeat;
 }
 
-#wrapper #side-menu #side-navi ul #list a {
+#list a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/list_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #list a:hover {
+#list a:hover {
 	background-image:url(../images/list_button/list_on.png);
 	background-repeat:no-repeat;
 }
 
-#wrapper #side-menu #side-navi ul #table a {
+#table a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/table_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #table a:hover {
+#table a:hover {
 	background-image:url(../images/list_button/table_on.png);
 	background-repeat:no-repeat;
 }
 
-#wrapper #side-menu #side-navi ul #form a {
+#form a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/form_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #form a:hover {
+#form a:hover {
 	background-image:url(../images/list_button/form_on.png);
 	background-repeat:no-repeat;
 }
 
-#wrapper #side-menu #side-navi ul #others a {
+#others a {
 	display: block;
 	height: 40px;
 	width: 160px;
 	background: url(../images/list_button/other_off.png) no-repeat center;
 }
 
-#wrapper #side-menu #side-navi ul #others a:hover {
+#others a:hover {
 	background-image:url(../images/list_button/other_on.png);
 	background-repeat:no-repeat;
 }
@@ -162,28 +169,22 @@ body{
 em {
 	visibility:hidden;
 }
-
-
-
-
-#hedder{
-	width:960px;
-	height:190px;
-	
-
+-----------------#main menu-------------------
+h1 {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
 }
-
 #side-menu{
 	width: 210px;
 	height: auto;
 	float: left;
 }
-
 #main {
-	float: right;
 	height: auto;
-	width: 720px;
-	margin-right: 10px;
+	width: 960px;
+	clear: both;
+	margin: 30px 10px 0px 0px;
 }
 #main #menu {
 	margin: 30px 0px 0px;
@@ -195,7 +196,6 @@ em {
 	height: 180px;
 	width: 180px;
 }
-
 #list1 a {
     display:block;
 	height: 180px;
@@ -203,10 +203,9 @@ em {
 	background: url(../images/main/list1.png) no-repeat;
 }
 #list1 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list2 a {
 	display:block;
 	background: url(../images/main/list2.png);
@@ -215,10 +214,9 @@ opacity:0.7;
 	display:block;
 }
 #list2 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list3 a {
 	background: url(../images/main/list3.png);
 	height: 180px;
@@ -226,10 +224,9 @@ opacity:0.7;
 	display:block;
 }
 #list3 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list4 a {
 	background: url(../images/main/list4.png);
 	height: 180px;
@@ -237,10 +234,9 @@ opacity:0.7;
 	display:block;
 }
 #list4 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list5 a {
 	background: url(../images/main/list5.png);
 	height: 180px;
@@ -248,10 +244,9 @@ opacity:0.7;
 	display:block;
 }
 #list5 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list6 a {
 	background: url(../images/main/list6.png);
 	height: 180px;
@@ -259,10 +254,9 @@ opacity:0.7;
 	display:block;
 }
 #list6 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #list7 a {
 	background: url(../images/main/list7.png);
 	height: 180px;
@@ -270,10 +264,9 @@ opacity:0.7;
 	display:block;
 }
 #list7 a:hover{
-filter:alpha(opacity=70);
-opacity:0.7;
+    filter:alpha(opacity=70);
+    opacity:0.7;
 }
-
 #main #menu ul {
 	height: 180px;
 	width: 720px;
@@ -283,7 +276,6 @@ opacity:0.7;
 	width: 180px;
 	list-style: none;
 }
-
 #footer{
 	widows: 960px;
 	height: auto;
@@ -339,18 +331,10 @@ opacity:0.7;
 	width: 90%;
 	border-top: 1px solid #00027f;
 }
+
 #wrapper {
 	background: #FFF;
 	margin: 0px auto;
 	height: auto;
 	width: 960px;
-}
-h1 {
-	text-align: right;
-	padding-top: 10px;
-	padding-right: 10px;
-}
-#hedder .sitemap {
-	float: right;
-	margin-top: 25px;
 }

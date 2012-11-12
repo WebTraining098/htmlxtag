@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<link rel="stylesheet" href="css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" />-->
+<title>画像01 画像を表示させたい</title>
+</head>
+
+<body>
+<h1>HTML×TAG</h1>
+<h2>画像</h2>
+<h3>リンク先を読み込むフレーム／ウィンドウを指定したい</h3>
+<p>使うタグ：</p>
+<ul>
+ <li>&lt;frame src=&quot;★&quot; name=&quot;♦&quot;&gt;</li>
+ <li> &lt;a href=&quot;▲&quot; target=&quot;♦&quot;&gt;～&lt;/a&gt; </li>
+</ul>
+<p>（☆・・・・・ファイルのURL、◆・・・・・フレーム名または_blank,_self,_parent,_top）</p>
+<p>説明 ： フレームとは通常の画面とは違い、1画面の中にいくつかの画面を分割して表示することが できます。<br />
+  　　　　◆ 横型フレーム …上部に項目（MENU)がありクリックすると、内容のところだけが変わる。<br />
+  　　　　◆ 縦型フレーム …横に項目（MENU)があり クリックすると、内容のところが変わる。<br />
+  　　　フレームページは、メニューや内容のページを囲む枠のことです。<br />
+  　　　そのため最低でも「フレームページ」「メニューページ」「内容ページ」の3ページが必要になります。<br />
+  　　　メニューページは通常のホームページと同じように作成します。<br />
+  　　　しかしリンクをクリックすると内容ページが変わるように指定しなければなりません。<br />
+  　　　メニューをクリックしたら、内容ページが変わるようにターゲットの指定をします。<br />
+  　　　規定の値で読み込むフレームを決める方法もあります。<br />
+  　　　　♦_blank … 名前がつけられていない新しいフレームに内容を表示<br />
+  　　　　♦_self … リンク元と同じフレームに内容を表示<br />
+  　　　　♦_parent … 親フレーム（&lt;frameset&gt;で角フレームを設定しているフレーム）に表示。<br />
+  　　　　　　　　　　親フレームがない場合には「_self」と同じ結果<br />
+  　　　　♦_top … すでにあるフレームをすべて解除して、ウィンドウいっぱいに表示。<br />
+　　　　　　　　   親フレームがない場合には「_self」と同じ結果</p>
+</body>
+</html>

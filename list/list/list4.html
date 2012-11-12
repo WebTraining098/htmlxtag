@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>無題ドキュメント</title>
+<title>HTML×TAG - リスト4</title>
 
 <link href="css/list0.css" rel="stylesheet" type="text/css" />
 </head>
@@ -11,40 +11,106 @@
 <div id="list">
 
 	<div id="header-area">
-    	<h1>リストのマークを変更したい</h1>
+    	<h1>リストの番号の種類を変更したい</h1>
 	<!--div#header-area--></div>
 
 
 
 <div id="contents-area">
-<h2>list-style-type:★　(★…disc、circle、square、none)</h2>
+<h2>list-style-type:★　(★…decimal,decimal-leading-zero,lower-roman他)</h2>
     
-	<xmp><ol>～<ol>タグで、その範囲が番号つきのリストであることを示し、順番が重要なリストを作成したい場合に使用します。
-	リスト表示される項目は、<li>～</li>タグで指定します。
-	各項目の先頭に連番の数字がつき、一般的なブラウザではリスト全体がインデントして表示されます。</xmp>
+	<xmp>	リストタグの項目の先頭に表示される番号の種類は、CSSのlist-style-typeプロパティで変更できます。
+	リストのマークを変更する場合にもlist-style-typeプロパティを使用します。リスト3をご覧ください。
+	</xmp>
     
 	<hr border="1">
     
-	■値の指定方法<br>
-	disc…●<br>
-    circle…○<br>
-    square…■<br>
-    none…マークなし<br>
+    <table border="1" align="center" width="800">
+    	<caption>■値の指定方法</caption>
+    	<tr>
+        <td width="130">decimal</td>
+        <td>10進数(1,2,3…)</td>
+        <td width="140">decimal-leading-zero</td>
+        <td>0を頭につけた10進数(01,02,03…98,99)</td>
+        </tr>
+        <tr>
+        <td>lower-roman</td>
+        <td>小文字ローマ数字(ⅰ,ⅱ,ⅲ…)</td>
+        <td>upper-roman</td>
+        <td>大文字ローマ数字(Ⅰ,Ⅱ,Ⅲ…)</td>
+        </tr>
+        <tr>
+        <td>lower-greek</td>
+        <td>小文字ギリシャ文字(α,γ,β…)</td>
+        <td>lower-latin</td>
+        <td>小文字アルファベット(a,b,c…)</td>
+        </tr>
+        <tr>
+        <td>upper-alpha</td>
+        <td>大文字アルファベット(A,B,C…)</td>
+        <td>upper-latin</td>
+        <td>大文字アルファベット(A,B,C…)</td>
+        </tr>
+        <tr>
+        <td>armenian</td>
+        <td>アルメニア数字</td>
+        <td>none</td>
+        <td>表示しない</td>
+     </table>
     
 <div id="text-area">
 【css Source】
 <xmp>
+@charset "utf-8";
+/* CSS Document */
+
 #sample1{
-	list-style-type:none;
+	list-style-type:lower-alpha;
 }
+
 #sample2{
-list-style-type:disc;
+	list-style-type:lower-roman;
+}
+
+#sample3{
+	list-style-type:upper-roman;
+}
+
+#sample4{
+	list-style-type:square;
+}
 </xmp>
 <!--div#text-area--></div>
-
-
-<img src="images/20121024table02.png" width="350" height="350" >
-<img src="images/20121025.jpg" width="350" height="350" />
+<div id="text-area2">
+【html Source】
+<xmp>
+<body>
+<ol id="sample1">
+	<li>商品を選んで買い物かごに入れる。</li>
+    <li>買い物かごの中身を確認して、レジへ進む。</li>
+    <li>お客様情報・配送方法等を入力する。</li>
+    <li>注文内容を確認して、「注文する」をクリックする。</li>
+</ol>
+<ol>
+	<li>商品を選んで買い物かごに入れる。</li>
+    <li>買い物かごの中身を確認して、レジへ進む。</li>
+    <li id="sample2">お客様情報・配送方法等を入力する。</li>
+    <li id="sample3">注文内容を確認して、「注文する」をクリックする。</li>
+</ol>
+</body>
+</xmp>
+<!--div#text-area2--></div>
+<table align="center" border="0">
+  <th>-Internet Explorer-</th>
+    <th>-Firefox-</th>
+   
+    <tbody>
+    	<tr>
+        <td><img src="images/list04ie.jpg" width="350" height="350" ></td>
+        <td><img src="images/list04fx.jpg" width="350" height="350" /></td>
+        </tr>
+    </tbody>
+</table>
 <!--div#contents-area--></div>
 
 

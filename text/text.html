@@ -9,50 +9,50 @@
 <div id="wrapper">
   <h1>テキスト</h1>
   <dl>
-    <dt><em>■</em>>見出しを指定したい></dt>
+    <dt><a name="h1" id="h1"><em>♪</em>見出しを指定したい</a></dt>
     <dd><span>&lt;h1～h6&gt;~&lt;/h1～h6&gt;</span></dd>
     <dd>その部分が見出しであることを示します。見出しには6段階あり、H1が一番上位、以下数字が大きくなるにつれて見出しのレベルが下がります。</dd>
-    <dt><em>■</em>段落を指定したい</dt>
+    <dt><a name="p" id="p"><em>♪</em>段落を指定したい</a></dt>
     <dd><span>&lt;p&gt;~&lt;/p&gt;</span></dd>
     <dd>その範囲が一つの段落であることを示します。一般てきなﾌﾞﾗｳｻﾞではこの範囲の前でテキストが改行され、さらに一行分空白が挿入されます。</dd>
-    <dt><em>■</em>改行させたい</dt>
+    <dt><a name="br" id="br"><em>♪</em>改行させたい</a></dt>
     <dd><span>&lt;br&gt;</span></dd>
     <dd>HTML文書で改行を入れてもﾌﾞﾗｳｻﾞ上の表示には反映されません。ﾌﾞﾗｳｻﾞ上で実際に改行させるには、改行したい位置に＜ｂｒ＞タグを記載します。</dd>
-    <dt><em>■</em>改行させないで表示したい</dt>
+    <dt><a name="nowrap" id="nowrap"><em>♪</em>改行させないで表示したい</a></dt>
     <dd><span>white-space:nowrap</span></dd>
     <dd>通常ﾌﾞﾗｳｻﾞでは、ウインドウズの幅にテキストを自動的に折り返します。テキストを折り替えさずに１行で表示したい場合は、cssのwhite-spaceプロパティの値に｢nowrap｣を指定します。</dd>
-    <dt><em>■</em>入力したとうりに表示したい</dt>
+    <dt><a name="pre" id="pre"></a><em>♪</em>入力したとうりに表示したい</dt>
     <dd><span>&lt;pre&gt;~&lt;/pre&gt;</span></dd>
     <dd>＜pre＞～＜/pre＞タグで指定された範囲のテキストは、HTML文書内の空白文字や改行などがブラウザ画面にそのまま反映されます。</dd>
-    <dt><em>■</em>文書を引用したい</dt>
+    <dt><a name="blokquote" id="blokquote"><em>♪</em>文書を引用したい</a></dt>
     <dd><span>&lt;blokquote cite=&quot;#&quot;&gt;~&lt;/blockquoto&gt; &lt;p cite=&quot;#&quot;&gt;~&lt;/p&gt;</span></dd>
     <dd>文章を引用する場合には、次のいずれかのタグを使用します。どちらもcite属性で引用元のURLを指定できます。</dd>
-    <dt><em>■</em>情報源を示したい</dt>
+    <dt><a name="cite" id="cite"><em>♪</em>情報源を示したい</a></dt>
     <dd><span>&lt;cite&gt;~&lt;/cite&gt;</span></dd>
     <dd>引用元などほかの情報源を参照する部分であることを示します。</dd>
-    <dt><em>■</em>定義後を示したい</dt>
+    <dt><a name="dfn" id="dfn"><em>♪</em>後定義を示したい</a></dt>
     <dd><span>&lt;dfn&gt;~&lt;/dfn&gt;</span></dd>
     <dd>用語の定義をしている部分であることを示します。一般的にはイタリック体(斜体)で表示されます。</dd>
-    <dt><em>■</em>強調したい</dt>
+    <dt><a name="em" id="em"><em>♪</em>強調したい</a></dt>
     <dd><span>&lt;em&gt;~&lt;/em&gt; &lt;strong&gt;~&lt;/strong&gt;</span></dd>
     <dd>＜em＞～＜/em＞:強調されることを示します。一般的にはイタリック体(斜体)で表示されます。</dd>
     <dd>＜strong＞～＜/strong＞より強く強調される部分であることを示します。一般的には太字で表示されます。</dd>
-    <dt><em>■</em>上付き文字･下付き文字を指定したい</dt>
+    <dt><a name="sup" id="sup"><em>♪</em>上付き文字･下付き文字を指定したい</a></dt>
     <dd><span>&lt;sup&gt;~&lt;/sup&gt;  &lt;sub&gt;~&lt;/sub&gt;</span></dd>
     <dd>＜sup＞:上付き文字を指定します。　　＜sub＞:下付き表示を指定します。</dd>
-    <dt><em>■</em>コンピュータ関連のテキストを示したい</dt>
+    <dt><a name="code" id="code"><em>♪</em>コンピュータ関連のテキストを示したい</a></dt>
     <dd><span>&lt;code&gt;~&lt;code&gt;  &lt;kbd&gt;~&lt;/kbd&gt;  &lt;samp&gt;~&lt;/samp&gt;  &lt;var&gt;~&lt;/var&gt;</span></dd>
     <dd>＜code＞:プログラムなどのコンピュータのソースコードを示します。　＜kbd＞:ﾕｰｻﾞｰが入力する文字を示します。</dd>
     <dd>＜samp＞:プログラムやスクリプトの出力例を示します。　＜var＞:変数や引数を示します。</dd>
-    <dt><em>■</em>略語や頭文字を示したい</dt>
+    <dt><a name="addr" id="addr"><em>♪</em>略語や頭文字を示したい</a></dt>
     <dd><span>&lt;addr title=&quot;#&quot;&gt;~&lt;/addr&gt;  &lt;acronym title=&quot;#&quot;&gt;~&lt;/acronym&gt;</span></dd>
     <dd>＜addr＞:1文字ずつ読み、１つの発音で表現できないような略語(例:WWW,HTTP,URLなど)の場合に使用します。</dd>
     <dd>＜acronym＞:その略語えお１つの単語として発音するもの(例:NATO,UNESCOなど)に対して使用します。</dd>
-    <dt><em>■</em>内容の追加・削除を示したい</dt>
+    <dt><a name="ins" id="ins"><em>♪</em>内容の追加・削除を示したい</a></dt>
     <dd><span>&lt;ins&gt;~&lt;/ins&gt;  &lt;del&gt;~&lt;/del&gt;</span></dd>
     <dd>＜ins＞:その部分が後から追加されたことを示し、一般的には下線が引かれて表示されます。</dd>
     <dd>＜del＞:その部分が後で削除されたことを示し一般的には取消線が引かれて表紙されます。</dd>
-    <dt><em>■</em>テキストの表記方向を指定したい</dt>
+    <dt><a name="bdo" id="bdo"><em>♪</em>テキストの表記方向を指定したい</a></dt>
     <dd><span>&lt;bdo dir=&quot;#&quot;&gt;~&lt;/bdo&gt;</span></dd>
     <dd>テキストの表記方向を指定します。</dd>
   </dl>

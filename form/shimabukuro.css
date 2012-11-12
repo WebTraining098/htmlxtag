@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*共通
+-------------------------------------------------------------------------*/
+#content dl {
+	margin-top:15px;
+	margin-bottom:25px;
+}
+
+#content dl dt {
+	background-color:#fafad2;
+	font-size:130%;
+}
+
+#content dd{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#content dl dd pre {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:bold;
+	font-size:115%;
+	color:#dc143c;
+}
+
+#content dl dd p {
+	font-size:100%;
+	color:#000;
+}
+
+
+/*form only
+-------------------------------------------------------------------------*/
+#content dl dd ul.sub1 {
+	margin: 0px 50px 10px 50px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:90%;
+	color:#300;
+	border: 1px dotted #aaa;
+	background-color:#f9f7ba;
+}
+#content dl dd ul.cap1 {
+	margin: 20px 30px 20px 30px;
+	padding:5px;
+	font-size: 89%;
+	color:#033;
+	border: 1px solid #aaa;
+	background-color:#ffffff;
+}
+#content dl dd ul.cap1 li {
+	padding:5px;
+}
+#content dl dd ul .capt {
+	font-weight:bold;
+}
+#content dl dd ul .cap2 {
+	padding: 0px 15px;
+}
+.t-modoru {
+	text-align:right;
+	border-top:1px dotted #666;
+	margin:15px 0px;
+	padding:10px 0px;
+}

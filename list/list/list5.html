@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>List5</title>
+<title>HTMLTAG - List5</title>
 
 <link href="css/list0.css" rel="stylesheet" type="text/css" />
 </head>
@@ -19,32 +19,37 @@
 <div id="contents-area">
 <h2><xmp><ol start="★"><li>～</li></ol></xmp></h2>
     
-	<xmp><ol>～<ol>タグで、その範囲が番号つきのリストであることを示し、順番が重要なリストを作成したい場合に使用します。
-	リスト表示される項目は、<li>～</li>タグで指定します。
-	各項目の先頭に連番の数字がつき、一般的なブラウザではリスト全体がインデントして表示されます。</xmp>
+	<xmp><ol>タグ内のstart属性でリスト開始番号を指定できます。
+    ルールとして整数での入力・期待値は「1」となりtype属性との併用も可能です。
+    start属性はHTML4.01では非推奨ですが、現在CSSでの代替方は不可です。</xmp>
     
 	<hr border="1">
     
-	■値の指定方法<br>
-	disc…●<br>
-    circle…○<br>
-    square…■<br>
-    none…マークなし<br>
+	
     
 <div id="text-area">
-【css Source】
+【HTML Source】
 <xmp>
-#sample1{
-	list-style-type:none;
-}
-#sample2{
-list-style-type:disc;
+<ol start="3">
+<li>商品を選び買物かごへ</li>
+<li>中身を確認し、レジへ</li>
+<li>配送方法などを入力</li>
+<li>内容確認し、注文確定</li>
+</ol>
 </xmp>
 <!--div#text-area--></div>
+<table align="center" border="0">
+  <th>-Internet Explorer-</th>
+    <th>-Firefox-</th>
+   
+    <tbody>
+    	<tr>
+        <td><img src="images/image5.png" width="350" height="350" /></td>
+        <td> <img src="images/image5f.png" width="350" height="350" /></td>
+        </tr>
+    </tbody>
+</table>
 
-
-<img src="images/20121024table02.png" width="350" height="350" >
-<img src="images/20121025.jpg" width="350" height="350" />
 <!--div#contents-area--></div>
 
 

@@ -34,6 +34,11 @@ body {
 #main .coment {
 	background: url(images/wanko.jpg);
 }
+#main .coment p {
+	color:#30F;
+	font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-weight: bold;
+}
 
 #sidenay {
 	margin: 0px 10px;
@@ -45,8 +50,7 @@ body {
 
 
 	background:;
-	/* rder: 3px dashed #0FC; */
-	background: url(../images/hedder/wanko.jpg);
+		background:url(file:///C|/Users/user1/Dropbox/web%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E8%82%B2%E6%88%90%E4%BA%8B%E6%A5%AD_%E5%85%B1%E6%9C%89/20121022_HTMLTAG/html_tag/basics/images/wanko.jpg);
 }
 
 #sidenay li {
@@ -55,16 +59,16 @@ body {
 	border-left: 2px solid #00027f;
 }
 #main .coment h3 {
-	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
 	font-size: 36px;
 	font-weight: bold;
 	color:#F00;
 }
 #main .coment h4 {
-	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
 	font-size: 18px;
 	font-weight: bold;
-	color: #09F;
+	color:#F09;
 }
 
 
@@ -229,7 +233,4 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
-}
-#main .coment p {
-	color: #3FF;
 }

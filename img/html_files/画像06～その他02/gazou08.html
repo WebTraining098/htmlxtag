@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<link rel="stylesheet" href="css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" />-->
+<title>画像08 イメージマップを作りたい
+（クライアントサイド・イメージマップ）</title>
+</head>
+
+<body>
+<h1>HTML×TAG</h1>
+<h2>画像</h2>
+<h3>イメージマップを作りたい<br />
+　　　（クライアントサイド・イメージマップ）</h3>
+<p>使うタグ：</p>
+<ul>
+ <li>&lt;img src=&quot;★&quot; usemap=&quot;#◆&quot; alt=&quot;▼&quot;&gt;</li>
+ <li>&lt;map name=&quot;◆&quot;&gt;～&lt;/map&gt;</li>
+ <li>&lt;areashape=&quot;▲&quot; coords=&quot;●&quot; href=&quot;■&quot; alt=&quot;▼&quot;&gt;</li> 
+</ul>
+<p><br />
+　 （★……画像ファイル名URL ◆……マップ名 ▲……default,rect,cricle,poly<br />
+　　●……座標,座標,…（ピクセル数）■……リンク先のURL ▼……画像代わりのテキスト）<br />
+</p>
+<p>説明：１つの画像を複数の領域に分けて、それぞれの領域にリンクを設定します。<br />
+  　　　 これはクリッカブルマップやイメージマップと呼ばれます。<br />
+  　　　 &lt;MAP&gt;タグでは、イメージマップでどのような領域を区切るか定義します。<br />
+  　　　 イメージマップで使用する画像を指定している&lt;IMG&gt;タグにはusemap属性が必要です。<br />
+</p>
+</body>
+</html>

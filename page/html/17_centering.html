@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ＨＴＭＬ×ＴＡＧ - ページと配置</title>
+<style type="text/css">
+body {
+	background-color: #00027f;
+}
+#wrapper {
+	background-color: #FFF;
+	width: 960px;
+	margin: 0 auto 30px auto;
+	padding: 10px 0 20px 0;
+}
+a {
+	text-decoration: none;
+}
+/*-------------------Header-----------------------*/
+#header {
+	background: url(hedder/title_under.png) repeat-x;
+	height: 150px;
+	width: 960px;
+	margin: 0px auto 30px auto;
+}
+#header h1 {
+	text-align: right;
+	padding-right: 10px;
+}
+.title {
+	float: left;
+	height: 150px;
+	width: 400px;
+	margin: -10px 0px 0px;
+}
+em {
+	visibility: hidden;
+}
+
+.sitemap {
+	background: url(hedder/sitemap.png) no-repeat;
+	float: right;
+	height: 116px;
+	width: 180px;
+	margin: 25px 0px 0px;
+}
+/*-------------------Side nav-----------------------*/
+#sidenav {
+	float:left;
+	width: 210px;
+	margin: 0 10px 0 10px;
+}
+#sidenav li {
+	height: 33px;
+	border-bottom: solid 2px #00027f;
+	border-left: solid 10px #00027f;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+#sidenav a em {
+	visibility: hidden;
+}
+#basics a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/basics_off.png) no-repeat;
+}
+#basics a:hover {
+	background: url(list_button/basics_on.png) no-repeat;
+}
+#text a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/text_on.png) no-repeat;
+}
+#font a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/font_off.png) no-repeat;
+}
+#text a:hover {
+	background: url(list_button/text_on.png) no-repeat;
+
+}
+#font a:hover {
+	background: url(list_button/font_on.png) no-repeat;
+}
+#page a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/page_off.png) no-repeat;
+}
+#page a:hover {
+	background: url(list_button/page_on.png) no-repeat;
+}
+#image a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/images_off.png) no-repeat;
+}
+#image a:hover {
+	background: url(list_button/images_on.png) no-repeat;
+}
+#link a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/link_off.png) no-repeat;
+}
+#link a:hover {
+	background: url(list_button/link_on.png) no-repeat;
+}
+#list a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/list_off.png) no-repeat;
+}
+#list a:hover {
+	background: url(list_button/list_on.png) no-repeat;
+}
+#table a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/table_off.png) no-repeat;
+}
+#table a:hover {
+	background: url(list_button/table_on.png) no-repeat;
+}
+#form a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/form_off.png) no-repeat;
+}
+#form a:hover {
+	background: url(list_button/form_on.png) no-repeat;
+}
+#other a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(list_button/other_off.png) no-repeat;
+}
+#other a:hover {
+	background: url(list_button/other_on.png) no-repeat;
+}
+/*-------------------content-----------------------*/
+#content {
+	float: right;
+	background-color: #CCC;
+	height: 500px;
+	width: 720px;
+	margin-right: 10px;
+}
+/*-------------------footer-----------------------*/
+#stelinks {
+	text-align: center;
+	width: 800px;
+	line-height: 30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+}
+#stelinks dt {
+	font-size: 18px;
+	font-weight: bold;
+	color: #00027f;
+	text-decoration: underline;
+}
+#stelinks dd {
+	float: left;
+	width: 159px;
+	height: 29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: url(footer_button/link_button_bg.png) repeat-x;
+}
+#stelinks dd a {
+	color: #ccc;
+	font-weight: bold;
+	display:block;
+}
+#stelinks dd a:hover {
+	height: 29px;
+	color: #e8e8e8;
+	background: url(footer_button/link_button_bg_on.png) repeat-x;
+}
+#footer {
+	width: 90%;
+	border-top: solid 1px #00027f;
+	text-align: center;
+	margin: 0 auto;
+}
+</style>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1>HTMLタグ辞典×ＣＳＳ</h1>
+    <p class="title"><img src="hedder/title.png" width="400" height="150" alt="h1" /></p>
+    <p class="sitemap"><em>SITE MAP</em></p>
+  </div>
+  <!-- /#header -->
+
+<ul id="sidenav">
+<li id="basics"><a href="#"><em>文書の基本</em></a></li>
+<li id="text"><a href="#"><em>テキスト</em></a></li>
+<li id="font"><a href="#"><em>フォント</em></a></li>
+<li id="page"><a href="#"><em>ページと配置</em></a></li>
+<li id="image"><a href="#"><em>画像</em></a></li>
+<li id="link"><a href="#"><em>リンク</em></a></li>
+<li id="list"><a href="#"><em>リスト</em></a></li>
+<li id="table"><a href="#"><em>テーブル</em></a></li>
+<li id="form"><a href="#"><em>フォーム</em></a></li>
+<li id="other"><a href="#"><em>その他</em></a></li>
+</ul><!-- /#sidenav -->
+
+<div id="content">
+	
+　　<p class="black">センタリングしたい　ＣＳＳ</p>
+	
+    <span class="red">margin-right:auto</span>　<br>
+ 	<span class="red">margin-left:auto</span>　<br>
+    
+    <hr>
+    
+      ★………色<br />
+
+
+      
+    <div class="margin"> 
+      
+      
+     <p>文字色は、CSSのcolorプロパティで指定します。</p>
+     
+     <br />
+     
+     <span class="blue">値の指定方法</span><br>
+     
+     <p><span class="purple">色</span>
+      　ＲＧＢ値もしくはキーワード（色名）でしていします。
+    </p>    
+      <br>
+</div>
+      　
+    <p class="black">センタリングしたい　HTML</p>
+    <span class="red">&lt;center&gt;～&lt;/center&gt;</span>　<br>
+    <span class="red">&lt;div align=&quot;center&quot;&gt;</span>　<br>
+
+    
+    <hr>
+    <br />
+
+
+      
+    <div class="margin"> 
+     <span class="blue">値の指定方法</span>
+     <p>内容のセンタリングを指定します。</p>
+     <p>HTML4.01では非推奨とされています。</p>
+     <p>コンテンツのセンタリングはCSSで指定しましょう。</p>
+     <p><br>
+     </p>
+    </div>
+    <a href="16_gyosoroe.html"><img src="../images/back.png" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="18_yokokeisen.html"><img src="../images/next.png" width="40" /></a>    
+    
+      
+</div><!-- #content -->
+
+<!-- フッターここから -->
+<dl id="stelinks" class="clearfix">
+<dt>TCI Trainee's Sample Site Links</dt>
+<dd><a href="http://web020.hotcom-web.com/wordpress/">Saya Irei</a></dd>
+<dd><a href="http://web017.hotcom-web.com/wordpress/">Yoshinori Gakiya</a></dd>
+<dd><a href="http://web011.hotcom-web.com/wordpress/">Chikako Kikuchi</a></dd>
+<dd><a href="http://web014.hotcom-web.com/wordpress/">Takashi Kitsunai</a></dd>
+<dd><a href="http://web007.hotcom-web.com/wordpress/">Sumiyo Kubota</a></dd>
+<dd><a href="http://web016.hotcom-web.com/wordpress/">Yoshie Miyagi</a></dd>
+<dd><a href="http://web009.hotcom-web.com/wordpress/">Hisako Kanemoto</a></dd>
+<dd><a href="http://web006.hotcom-web.com/wordpress/">Shinsuke Yamada</a></dd>
+<dd><a href="http://web015.hotcom-web.com/wordpress/">Ai Matsuda</a></dd>
+<dd><a href="http://web0211.hotcom-web.com/wordpress/">Takashi Kamizato</a></dd>
+<dd><a href="http://web003.hotcom-web.com/wordpress/">Tetsuyuki Oura</a></dd>
+<dd><a href="http://web019.hotcom-web.com/wordpress/">Yoko Takikawa</a></dd>
+<dd><a href="http://weboo1.hotcom-web.com/wordpress/">Chinen Yuya</a></dd>
+<dd><a href="http://web008.hotcom-web.com/wordpress/">Shuta Ikemiyagi</a></dd>
+<dd><a href="http://web023.hotcom-web.com/wordpress/">Yuta Nakamura</a></dd>
+<dd><a href="http://web010.hotcom-web.com/wordpress/">Osamu Hasegawa</a></dd>
+<dd><a href="http://web004.hotcom-web.com/wordpress/">Koji Amano</a></dd>
+<dd><a href="http://web025.hotcom-web.com/wordpress/">Tanaka Makoto</a></dd>
+<dd><a href="http://web013.hotcom-web.com/wordpress/">Toguchi masashi</a></dd>
+<dd><a href="http://web012.hotcom-web.com/wordpress/">Koji Shimabukuro</a></dd>
+<dd><a href="http://web024.hotcom-web.com/wordpress/">Tomoko Shimabukuro</a></dd>
+<dd><a href="http://web022a.hotcom-web.com/wordpress/">Haebaru Kohei</a></dd>
+<dd><a href="http://web018.daiwa-hotcom.com/wordpress/">Taira Shinya</a></dd>
+<dd><a href="http://web005.hotcom-web.com/wordpress/">Toyoda Ryuta</a></dd>
+<dd><a href="http://web002.hotcom-web.com/wordpress/">Reiko Nadoyama</a></dd>
+
+</dl>
+
+<div id="footer">
+    <p>Copyright © 2012 TCI. All Rights Reserved.</p>
+</div><!-- /#footer -->
+
+</div><!-- /#wrapper -->
+</body>
+</html>
