@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文書の基本</title>
+<style type="text/css">
+#wapper {
+	border: 1px solid #daa520;
+	margin: 0px auto;
+	height: auto;
+	width: 960px;
+	background: -moz-linear-gradient(left, #FF3, #fff);
+	background: -webkit-gradient(linear, left center, right center, from(#FF3), to(#fff));
+}
+h1 {
+	color: #FF0000;
+	font-family: "ＭＳ 明朝", serif;
+}
+h2 {
+	color: #36F;
+}
+#wapper dt {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 25px;
+	font-weight: bold;
+	color: #C00;
+	margin-bottom: 5px;
+}
+#wapper dd {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+.footer {
+	margin-left: 30px;
+}
+</style>
+</head>
+
+<body>
+<div id="wapper">
+  <div class="h1">
+    <h1>文書の基本<img src="images/bun_image/t001.jpg" width="300" height="200" /></h1>
+  </div>
+  <dl>
+    <dt>・ &lt;!DOCTYPE&gt;  </dt>
+    <dd>HTMLやXHTMLの各バージョンで使用可能なタグや属性などを、文書型定義（Document Type Definition ： DTDと略す）として詳細に定義します。</dd>
+    <dt> 
+    ・ &lt;html&gt;～&lt;/html&gt;　　&lt;head&gt;～&lt;/head&gt;　　&lt;body&gt;～&lt;/body&gt;
+    <dd>&lt;html&gt;、&lt;head&gt;、&lt;body&gt;の３種類のタグで文書の基本的な構造を定義します。</dd>
+    <dt>・ &lt;?xml veasion="1.0"encoding="☆"?&gt;</a></dt>
+    <dt> 　　&lt;html xmlns~="http://www.3.org/1999/xhtml"xm:lang="☆"lang="☆"&gt;</dt>
+    <dd>XML宣言、名前空間と言語コードを指定します。</dd>
+    <dt>・ &lt;title&gt;～&lt;/title&gt;</a> </dt>
+    <dd>ブラウザのタイトルバーに表示され、「お気に入り」や「ブックマーク」へ登録するときのデフォルトタイトルや履歴などに使用されます。</dd>
+    <dt>・ &lt;base href="#"&gt;</a> &lt;base href="#"target="#"&gt; </dt>
+    <dd>文書中の相対パスで書かれたURLが基準にするURLを指定します。
+      target属性はリンク先の文書を読み込むデフォルトウインドウを指定します。 </dd>
+    <dt>・ &lt;meta name="#" content="#"&gt;</a> </dt>
+    <dd>文書の著者、概要、検索用キーワードなどを表せます。</dd>
+    <dt>・ &lt;meta http-equiv="#" content="#"&gt; </dt>
+    <dd>そのHTML文書のMIMEタイプと文字コード、デフォルトのスタイルシート言語、スクリプト言語などを表わせます。</dd>
+    <dt> ・ &lt;style&gt;～&lt;/style&gt; </dt>
+    <dd>head内に配置して、HTML文書にスタイルシートを適用します。この形式で設定したスタイルは同じHTML文書内でのみ有効となります。</dd>
+    <dt> ・ &lt;script&gt;～&lt;/script&gt; </dt>
+    <dd>HTML運所にスクリプトを組み込む場合に使用します。</dd>
+    <dt> ・ &lt;noscript&gt;～&lt;noscript&gt; </dt>
+    <dd>スクリプトを無効にしているブラウザ上で変わりに表示させる内容を指定します。</dd>
+    <dt> ・ &lt;div&gt;～&lt;/div&gt; 　　&lt;span&gt;～&lt;/span&gt;
+    <dd>特定の意味を持たない汎用的な範囲を設定できます。</dd>
+    <dt> ・ &lt;address&gt;～&lt;/address&gt; </dt>
+    <dd>文書制作者と連絡を取るための情報（作者、e-mailアドレス、住所、TELなど）を記載時に使用します。</dd>
+  </dl>
+  <p class="footer"><img src="images/bun_image/mainimg.jpg" width="200" height="100" /></p>
+</div>
+</body>
+</html>

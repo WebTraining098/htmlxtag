@@ -1,0 +1,56 @@
+@charset "utf-8";
+body {
+	background: #00027f;
+}
+
+#wrapper {
+	margin: 0px auto;
+	height: auto;
+	width: 760px;
+	background: url(../img/mansikka-1600.jpg);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding: 100px;
+	border: 5px dashed #930;
+	border-radius: 20px;
+}
+h1 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 500px;
+	background: #F9F;
+	margin: 0px auto;
+	padding: 10px 10px 8px;
+	border: 3px dotted #390;
+	border-radius: 30px;
+}
+#wrapper dt {
+	font-size: 33px;
+	font-weight: bold;
+	color: #6C0;
+	border-top: 3px dotted #333;
+	padding-top: 20px;
+}
+#wrapper dd {
+	font-size: 18px;
+	font-weight: bold;
+	color: #F90;
+	margin-bottom: 10px;
+}
+#wrapper em {
+	color: #030;
+}
+#wrapper dd span {
+	color: #CF0;
+	font-size: 23px;
+}
+h4 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #F03;
+	text-align: right;
+}

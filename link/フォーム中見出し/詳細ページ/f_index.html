@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML×TAG-フォーム-説明</title>
+<link rel="stylesheet" href="../css/base.css" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #00027f;
+}
+#wrapper {
+	background-color: #FFF;
+	width: 960px;
+	margin: 0 auto 30px auto;
+	padding: 10px 0 20px 0;
+}
+a {
+	text-decoration: none;
+}
+/*-------------------Header-----------------------*/
+#header {
+	background: url(../images/hedder/title_under.png) repeat-x;
+	height: 150px;
+	width: 960px;
+	margin: 0px auto 30px auto;
+}
+#header h1 {
+	text-align: right;
+	padding-right: 10px;
+}
+.title {
+	float: left;
+	height: 150px;
+	width: 400px;
+	margin: -10px 0px 0px;
+}
+em {
+	visibility: hidden;
+}
+
+.sitemap {
+	background: url(../images/hedder/sitemap.png) no-repeat;
+	float: right;
+	height: 116px;
+	width: 180px;
+	margin: 25px 0px 0px;
+}
+/*-------------------Side nav-----------------------*/
+#sidenav {
+	float:left;
+	width: 210px;
+	margin: 0 10px 0 10px;
+}
+#sidenav li {
+	height: 33px;
+	border-bottom: solid 2px #00027f;
+	border-left: solid 10px #00027f;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+#sidenav a em {
+	visibility: hidden;
+}
+#basics a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/basics_off.png) no-repeat;
+}
+#basics a:hover {
+	background: url(../images/list_button/basics_on.png) no-repeat;
+}
+#text a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/text_on.png) no-repeat;
+}
+#font a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/font_off.png) no-repeat;
+}
+#text a:hover {
+	background: url(../images/list_button/text_on.png) no-repeat;
+
+}
+#font a:hover {
+	background: url(../images/list_button/font_on.png) no-repeat;
+}
+#page a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/page_off.png) no-repeat;
+}
+#page a:hover {
+	background: url(../images/list_button/page_on.png) no-repeat;
+}
+#image a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/images_off.png) no-repeat;
+}
+#image a:hover {
+	background: url(../images/list_button/images_on.png) no-repeat;
+}
+#link a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/link_off.png) no-repeat;
+}
+#link a:hover {
+	background: url(../images/list_button/link_on.png) no-repeat;
+}
+#list a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/list_off.png) no-repeat;
+}
+#list a:hover {
+	background: url(../images/list_button/list_on.png) no-repeat;
+}
+#table a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/table_off.png) no-repeat;
+}
+#table a:hover {
+	background: url(../images/list_button/table_on.png) no-repeat;
+}
+#form a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/form_off.png) no-repeat;
+}
+#form a:hover {
+	background: url(../images/list_button/form_on.png) no-repeat;
+}
+#other a {
+	height: 30px;
+	width: 160px;
+	display: block;
+	background: url(../images/list_button/other_off.png) no-repeat;
+}
+#other a:hover {
+	background: url(../images/list_button/other_on.png) no-repeat;
+}
+/*-------------------content-----------------------*/
+#content {
+	float: right;
+	background-color: #eee;
+	
+	width: 720px;
+	margin-right: 10px;
+}
+/*-------------------footer-----------------------*/
+#stelinks {
+	text-align: center;
+	width: 800px;
+	line-height: 30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+}
+#stelinks dt {
+	font-size: 18px;
+	font-weight: bold;
+	color: #00027f;
+	text-decoration: underline;
+}
+#stelinks dd {
+	float: left;
+	width: 159px;
+	height: 29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: url(../images/footer_button/link_button_bg.png) repeat-x;
+}
+#stelinks dd a {
+	color: #ccc;
+	font-weight: bold;
+	display:block;
+}
+#stelinks dd a:hover {
+	height: 29px;
+	color: #e8e8e8;
+	background: url(../images/footer_button/link_button_bg_on.png) repeat-x;
+}
+#footer {
+	width: 90%;
+	border-top: solid 1px #00027f;
+	text-align: center;
+	margin: 0 auto;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="../../shimabukuro.css" media="all" />
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1>HTMLタグ辞典×ＣＳＳ</h1>
+    <p class="title"><img src="../images/hedder/title.png" width="400" height="150" /></p>
+    <p class="sitemap"><em>SITE MAP</em></p>
+  </div>
+  <!-- /#header -->
+
+<ul id="sidenav">
+<li id="basics"><a href="#"><em>文書の基本</em></a></li>
+<li id="text"><a href="#"><em>テキスト</em></a></li>
+<li id="font"><a href="#"><em>フォント</em></a></li>
+<li id="page"><a href="#"><em>ページと配置</em></a></li>
+<li id="image"><a href="#"><em>画像</em></a></li>
+<li id="link"><a href="#"><em>リンク</em></a></li>
+<li id="list"><a href="#"><em>リスト</em></a></li>
+<li id="table"><a href="#"><em>テーブル</em></a></li>
+<li id="form"><a href="#"><em>フォーム</em></a></li>
+<li id="other"><a href="#"><em>その他</em></a></li>
+</ul><!-- /#sidenav -->
+
+<div id="content">
+<div>
+	<dl>
+    	<dt id="f01"><h3>■入力フォームを作りたい</h3></dt>
+        <dd><pre>&lt;form action="★1" method="★2" enctype="★3" target="★4"&gt; ～ &lt;/form&gt;</pre>
+        	<ul class="sub1">
+            	<li>★1：データの送信先（URL）</li>
+                <li>★2：get、post（データの送信方法）</li>
+                <li>★3：データを送信する際のMIMEタイプ</li>
+                <li>★4：ウィンドウ名</li>
+            </ul>
+            <p>フォームを利用して、アンケート等、ユーザーがデータを入力して送信するような仕組みをWebページに設定できます。テキストの入力フィールドや送信ボタンなど、フォームの部品を作成する様々なタグは、すべてこの&lt;form&gt; ～&lt;/form&gt;タグの間に配置します。</p>
+            <ul class="cap1">
+            	<li><div class="capt">&lt;form&gt; ～&lt;/form&gt;</div>
+                	<div class="cap2">この範囲が入力フォームであることを示します。</div></li>
+                <li><div class="capt">[action属性]</div>
+                	<div class="cap2">フォームに入力されたデータを処理するCGIなどのプログラムのURLを指定します。この属性を省略することはできません。</div></li>
+                <li><div class="capt">[method属性]</div>
+                	<div class="cap2">入力されたデータの送信形式を設定します。「get」と「post」のどちらかを使います。「post」を使用するのが一般的です。</div></li>
+                <li><div class="capt">[enctype属性]</div>
+                	<div class="cap2">method=&quot;post&quot;の時、フォームをどのような形式にエンコードするのかを指定します。指定できる値は「application/x-www-form-urlencoded」（初期値）か「multipart/form-date」で、省略した場合は前者として扱われます。</div></li>
+                <li><div class="capt">[target属性]</div>
+                	<div class="cap2">データ送信後の結果を表示させるウィンドウ名を指定します。</div></li>
+               </ul>            
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f02"><h3>■送信ボタン・リセットボタンを作りたい</h3></dt>
+        <dd><pre>&lt;input type="submit" ★&gt;、   &lt;input type="reset" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：value="表示名"</li>
+            </ul>
+            <p>フォームの内容を送信するボタン「&lt;input type="submit"&gt;」と、書いた内容をリセットするボタン「&lt;input type="reset"&gt;」をそれぞれ作成できる。フォームに入力したデータを送信してもらうには「&lt;input type="submit"&gt;」が必須。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f03"><h3>■汎用ボタンを作りたい</h3></dt>
+        <dd><pre>&lt;input type="button" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>★：value="表示名"</li>
+            </ul>
+            <p>汎用ボタンを設置する。このボタン自体に既定の動作はありません。JavaScriptなどとともに使用されます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f04"><h3>■ボタンを作りたい</h3></dt>
+        <dd><pre>&lt;button type="#" ★&gt; ～ &lt;/button&gt;</pre>
+        	<ul class="sub1">
+            	<li>#：submit, reset, button</li>
+                <li>★：name="名前"</li>
+                <li>★：value="送信されるテキスト"</li>
+            </ul>
+            <p>type属性に指定した値によって役割が変わるボタンを設置します。</p>
+            <ul class="cap1">
+            	<li><div class="capt">[type属性]</div>
+                <span class="cap2">submit | 送信ボタン（初期値）</span><br />
+                <span class="cap2">reset | リセットボタン</span><br />
+               	<span class="cap2">button | 汎用の押しボタン</span></li>
+               </ul>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f05"><h3>■画像を使った送信ボタンをつくりたい</h3></dt>
+        <dd><pre>&lt;input type="image" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：src="画像ファイル名（URL）"</li>
+                <li>★：name="名前"</li>
+                <li>★：alt="画像の代わりのテキスト"</li>
+            </ul>
+            <p>ボタンを任意の画像を使って表示する。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f06"><h3>■一行の入力フィールドを作りたい</h3></dt>
+        <dd><pre>&lt;input type="text" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：size="フィールド幅"（半角文字数）</li>
+                <li>★：name="名前"</li>
+                <li>★：value="デフォルトで表示されるテキスト"</li>
+                <li>★：maxlength="入力可能な最大文字数"</li>
+            </ul>
+            <p>１行のテキスト入力フィールドを設置する。「text」の代わりに「password」を指定すると、入力した文字が直接表示されず「●」等で置き換えて表示される。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f07"><h3>■複数行の入力フィールドを作りたい</h3></dt>
+        <dd><pre>&lt;textaea ★&gt; ～ &lt;/textaea&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>★：cols="フィールド幅"（半角文字数）</li>
+                <li>★：rows="行数"</li>
+            </ul>
+            <p>複数行の入力が出来るテキスト入力フィールド（テキストボックス）を設置する。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f08"><h3>■ラジオボタンを作りたい</h3></dt>
+        <dd><pre>&lt;input type="radio" ★※&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>★：value="送信されるテキスト</li>
+                <li>※：checked（初期状態にて、これで指定したボタンを選択）</li>
+            </ul>
+            <p>&lt;input&gt;タグのtype属性に「radio」を指定すると、選択しから１つを選択するためのラジオボタンを設置できます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f09"><h3>■チェックボックスを作りたい</h3></dt>
+        <dd><pre>&lt;input type="checkbox" ★※&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>★：value="送信されるテキスト</li>
+                <li>※：checked（初期状態にて、これで指定したボタンを選択）</li>
+            </ul>
+            <p>&lt;input&gt;タグのtype属性に「checkbox」を指定すると、複数の選択肢を選択可能なチェックボックスを設置できます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f10"><h3>■表示されずに送信されるテキストを指定したい</h3></dt>
+        <dd><pre>&lt;input type="hidden" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>★：value="送信されるテキスト</li>
+            </ul>
+            <p>&lt;input&gt;タグのtype属性に「hidden」を指定すると、ユーザーには表示されずに送信されるテキストを指定できます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f11"><h3>■ファイルを選択してアップロードしたい</h3></dt>
+        <dd><pre>&lt;input type="file" ★&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+            </ul>
+            <p>&lt;input&gt;タグのtype属性に「file」を指定すると、ユーザーにファイルを選択・アップロードさせるための入力フィールドとボタンを設置します。</p>
+            <p>なお、ファイルを送信させるフォームには、&lt;form&gt;タグのentype属性に「multipart/form-date」を指定します。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f12"><h3>■プルダウンメニューを作りたい</h3></dt>
+        <dd><pre>&lt;select ★&gt;&lt;option ◇&gt; ～ &lt;/option&gt;&lt;/select&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：name="名前"</li>
+                <li>◇：value="送信されるテキスト</li>
+                <li>※：selected（初期状態にて、これで指定したボタンを選択）</li>
+            </ul>
+            <p>&lt;select&gt; ～ &lt;/select&gt;タグでメニューを設置します。メニュー内の選択肢は&lt;option&gt;タグを使って指定し、&lt;option&gt; ～ &lt;/option&gt;タグ内のテキストがメニューに表示される項目になります。</p>
+            <p>このように作成したメニューは、一般的にプルダウンメニューの形式で表示されます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f13"><h3>■リストボックスを作りたい</h3></dt>
+        <dd><pre>&lt;select size="#"　★※1&gt;&lt;option ◇※2&gt; ～ &lt;/option&gt;&lt;/select&gt;</pre>
+        	<ul class="sub1">
+            	<li>#：表示行数</li>
+                <li>★：name="メニュー名"</li>
+                <li>※1：multiple（複数の項目を選択可にする）</li>
+                <li>◇：value="送信されるテキスト</li>
+                <li>※2：selected（初期状態にて、これで指定したボタンを選択）</li>
+            </ul>
+            <p>&lt;select&gt;タグに表示行数を指定するsize属性を設定すると、リストボックス形式のメニューを作成できます。個々の選択肢は&lt;option&gt;タグを使って指定し、&lt;option&gt; ～ &lt;/option&gt;タグ内のテキストがメニューに表示される項目になります。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f14"><h3>■メニューの選択項目をグループ化したい</h3></dt>
+        <dd><pre>&lt;optgroup label="★"&gt;&lt;option label="◇"&gt; ～ &lt;/option>&lt;/option&gt;</pre>
+        	<ul class="sub1">
+            	<li>★：グループ名</li>
+                <li>◇：簡略化した項目名</li>
+            </ul>
+            <p>メニューの項目をグループ化するには&lt;optgroup&gt;タグを使います。&lt;select&gt;タグと&lt;option&gt;タグの間に記入し、作成されたメニューの選択項目をグループ化します。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f15"><h3>■フォームの部品をグループ化したい</h3></dt>
+        <dd><pre>&lt;fieldset&gt; ～ &lt;/fieldset&gt;、  &lt;legend&gt; ～ &lt;/legend&gt;</pre>
+        	<p>フォームを構成する様々な部品をグループ化するには&lt;fieldset&gt; ～ &lt;/fieldset&gt;タグを使います。&lt;legend&gt;タグは、そのグループ化された部品にキャプション（タイトル、等）をつけるタグで、&lt;fieldset&gt; ～ &lt;/fieldset&gt;タグ内の一番最初に置きます。</p>
+        </dd>
+    </dl>
+    
+    <dl>
+    	<dt id="f16"><h3>■部品にラベルを付けたい</h3></dt>
+        <dd><pre>&lt;label&gt; ～ &lt;/label&gt;  &lt;label for="#"&gt; ～ /label&gt;</pre>
+        	<ul class="sub1">
+            	<li>#：参照する部品のid属性と同じ値</li>
+            </ul>
+            <p>フォームを構成する様々な部品と、ラベルを関連付けます。ラベルでひとくくりにすると、ラジオボタンやチェックボックス等が、テキスト部分をクリックしてもチェックできるようになります。</p>
+        </dd>
+    </dl>
+    
+
+</div>
+
+</div><!-- #content -->
+
+<!-- フッターここから -->
+<dl id="stelinks" class="clearfix">
+<dt>TCI Trainee's Sample Site Links</dt>
+<dd><a href="#">Saya Irei</a></dd>
+<dd><a href="#">Yoshinori Gakiya</a></dd>
+<dd><a href="#">Chikako Kikuchi</a></dd>
+<dd><a href="#">Takashi Kitsunai</a></dd>
+<dd><a href="#">Sumiyo Kubota</a></dd>
+<dd><a href="#">Yoshie Miyagi</a></dd>
+<dd><a href="#">Hisako Kanemoto</a></dd>
+<dd><a href="#">Shinsuke Yamada</a></dd>
+<dd><a href="#">Ai Matsuda</a></dd>
+<dd><a href="#">Takashi Kamizato</a></dd>
+<dd><a href="#">Tetsuyuki Oura</a></dd>
+<dd><a href="#">Yoko Takikawa</a></dd>
+<dd><a href="#">Chinen Yuya</a></dd>
+<dd><a href="#">Shuta Ikemiyagi</a></dd>
+<dd><a href="#">Yuta Nakamura</a></dd>
+<dd><a href="#">Osamu Hasegawa</a></dd>
+<dd><a href="#">Koji Amano</a></dd>
+<dd><a href="#">Tanaka Makoto</a></dd>
+<dd><a href="#">Toguchi masashi</a></dd>
+<dd><a href="#">Koji Shimabukuro</a></dd>
+<dd><a href="#">Tomoko Shimabukuro</a></dd>
+<dd><a href="#">Haebaru Kohei</a></dd>
+<dd><a href="#">Taira Shinya</a></dd>
+<dd><a href="#">Toyoda Ryuta</a></dd>
+<dd><a href="#">Reiko Nadoyama</a></dd>
+</dl>
+
+<div id="footer">
+    <p>Copyright © 2012 TCI. All Rights Reserved.</p>
+</div><!-- /#footer -->
+
+</div><!-- /#wrapper -->
+</body>
+</html>

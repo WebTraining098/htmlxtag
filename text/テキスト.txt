@@ -1,0 +1,43 @@
+※②テキスト
+
+■見出しを指定したい
+<h1～h6>~</h1～h6>
+
+■段落を指定したい
+<p>~</p>
+
+■改行させたい
+<br>
+
+■改行させないで表示したい
+white-space:nowrap
+
+■入力したとうりに表示したい
+<pre>~</pre>
+
+■文書を引用したい
+<blokquote cite="#">~</blockquoto> <p cite="#">~</p>
+
+■情報源を示したい
+<cite>~</cite>
+
+■定義後を示したい
+<dfn>~</dfn>
+
+■強調したい
+<em>~</em> <strong>~</strong>
+
+■上付き文字･下付き文字を指定したい
+<sup>~</sup>  <sub>~</sub>
+
+■コンピュータ関連のテキストを示したい
+<code>~<code>  <kbd>~</kbd>  <samp>~</samp>  <var>~</var>
+
+■略語や頭文字を示したい
+<addr title="#">~</addr>  <acronym title="#">~</acronym>
+
+■内容の追加・削除を示したい
+<ins>~</ins>  <del>~</del>
+
+■テキストの表記方向を指定したい
+<bdo dir="#">~</bdo>

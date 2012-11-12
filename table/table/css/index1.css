@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content .linklist {
+	float: left;
+	margin-top: 80px;
+	border-right: 2px dashed #000;
+	padding-right: 75px;
+	padding-left: 80px;
+	line-height: 20px;
+}
+
+#content .linklist2 {
+	float: left;
+	margin-left: 80px;
+	margin-top: 80px;
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+body {
+	background: #00027f;
+}
+#wrapper {
+	background: #000;
+	margin: 20px auto;
+	height: auto;
+	width: 760px;
+	padding: 80px 100px;
+	border: 5px dotted #C60;
+}
+
+h1 {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 40px;
+	font-weight: bold;
+	color: #F30;
+}
+#wrapper h4 em {
+	color: #6F0;
+}
+
+#wrapper dt {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 30px;
+	font-weight: bold;
+	color: #03F;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	border-top: 2px dotted #666;
+	padding-top: 50px;
+}
+#wrapper dd {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CCC;
+	line-height: 40px;
+	padding-left: 35px;
+}
+#wrapper em {
+	color: #F0F;
+}
+#wrapper span {
+	color: #F30;
+	font-size: 24px;
+}
+#wrapper h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+}

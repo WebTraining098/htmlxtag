@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+#content {
+	height: auto;
+	width: 580px;
+	background: url(../img/mansikka-1600.jpg);
+	padding: 10px 50px;
+	margin-right: 20px;
+	border: 3px dotted #960;
+}
+#content h2 {
+	margin: 0px auto;
+	width: 500px;
+}
+#content dt {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #6F0;
+	margin-top: 10px;
+}
+#content dd {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	color: #FC0;
+	font-weight: bold;
+	margin-top: 15px;
+	border-bottom: 3px dotted #666;
+	padding-bottom: 7px;
+	margin-bottom: 25px;
+}

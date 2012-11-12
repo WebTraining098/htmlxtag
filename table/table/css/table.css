@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+#maincontent {
+	width: 500px;
+	float: left;
+	margin-bottom: 50px;
+}
+#taglink {
+	width: 220px;
+	float: right;
+}#cord {
+	height: 150px;
+	width: 275px;
+	border: 5px solid #F00;
+	float: left;
+	margin: 10px 0 10px 0px;
+	clear: both;
+}
+#cord2 {
+	height: 150px;
+	width: 412px;
+	border: 5px solid #F00;
+	float: right;
+	margin: 10px 0 0 0;
+}
+#taglink {
+
+}
+#maincontent table span {
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: underline;
+}

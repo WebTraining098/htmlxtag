@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #00027f;
+}
+#wrapper {
+	background-color: #FFF;
+	width: 960px;
+	margin: 0 auto 30px auto;
+	padding: 10px 0 20px 0;
+}
+a {
+	text-decoration: none;
+}
+/*-------------------Header-----------------------*/
+#header {
+	background: url(../images/title_under.png) repeat-x;
+	height: 150px;
+	width: 960px;
+	margin: 0px auto 30px auto;
+}
+#header h1 {
+	text-align: right;
+	padding-right: 10px;
+}
+.title {
+	float: left;
+	height: 150px;
+	width: 400px;
+	margin: -10px 0px 0px;
+}
+em {
+	visibility: hidden;
+}
+
+.sitemap {
+	background: url(../images/sitemap.png) no-repeat;
+	float: right;
+	height: 116px;
+	width: 180px;
+	margin: 25px 0px 0px;
+}
+/*-------------------Side nav-----------------------*/
+#sidenav {
+	float:left;
+	width: 210px;
+	margin: 0 10px 0 10px;
+}
+#sidenav li {
+	height: 33px;
+	border-bottom: solid 2px #00027f;
+	border-left: solid 10px #00027f;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+#sidenav a em {
+	visibility: hidden;
+}
+#basics a {
+	background-image: url(../images/basics_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#basics a:hover {
+	background-image: url(../images/basics_on.png);
+	background-repeat: no-repeat;
+}
+#text a {
+	background-image: url(../images/text_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#text a:hover {
+	background-image: url(../images/text_on.png);
+	background-repeat: no-repeat;
+}
+#font a {
+	background-image: url(../images/font_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#font a:hover {
+	background-image: url(../images/font_on.png);
+	background-repeat: no-repeat;
+}
+#page a {
+	background-image: url(../images/page_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#page a:hover {
+	background-image: url(../images/page_on.png);
+	background-repeat: no-repeat;
+}
+#image a {
+	background-image: url(../images/images_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#image a:hover {
+	background-image: url(../images/images_on.png);
+	background-repeat: no-repeat;
+}
+#link a {
+	background-image: url(../images/link_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#link a:hover {
+	background-image: url(../images/link_on.png);
+	background-repeat: no-repeat;
+}
+#list a {
+	background-image: url(../images/list_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#list a:hover {
+	background-image: url(../images/list_on.png);
+	background-repeat: no-repeat;
+}
+#table a {
+	background-image: url(../images/table_on.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#form a {
+	background-image: url(../images/form_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#form a:hover {
+	background-image: url(../images/form_on.png);
+	background-repeat: no-repeat;
+}
+#other a {
+	background-image: url(../images/other_off.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 160px;
+	display: block;
+}
+#other a:hover {
+	background-image: url(../images/other_on.png);
+	background-repeat: no-repeat;
+}
+/*-------------------content-----------------------*/
+#content {
+	float: right;
+	height: auto;
+	width: 720px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+/*-------------------footer-----------------------*/
+#stelinks {
+	text-align: center;
+	width: 800px;
+	line-height: 30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+}
+#stelinks dt {
+	font-size: 18px;
+	font-weight: bold;
+	color: #00027f;
+	text-decoration: underline;
+}
+#stelinks dd {
+	float: left;
+	width: 159px;
+	background-image: url(../images/link_button_bg.png);
+	background-repeat: repeat-x;
+	height: 29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+#stelinks dd a {
+	color: #ccc;
+	font-weight: bold;
+	display:block;
+}
+#stelinks dd a:hover {
+	height: 29px;
+	color: #e8e8e8;
+	background-image: url(../images/link_button_bg_on.png);
+	background-repeat: repeat-x;
+}
+#footer {
+	width: 90%;
+	border-top: solid 1px #00027f;
+	text-align: center;
+	margin: 0 auto;
+}

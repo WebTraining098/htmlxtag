@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="reset.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background: #FCF;
+}
+#wapper {
+	background: #FCF url(images/mansikka-1600.jpg) repeat;
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px dashed #999;
+	padding: 0px 50px 25px;
+}
+#wapper hr {
+	border-top: 4px dotted #F36;
+	border-right: 4px #F36;
+	border-bottom: 4px #F36;
+	border-left: 4px #F36;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#hadder {
+	margin-bottom: 30px;
+}
+#hadder h1 {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 36px;
+	font-weight: bold;
+	background: #F0F;
+	width: 960px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-style: italic;
+	color: #FFF;
+	text-align: center;
+}
+#wapper h2 {
+	font-size: 36px;
+	color: #090;
+	margin-bottom: 50px;
+}
+#wapper dl dd {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #F60;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+#wapper .box dt {
+	font-size: 40px;
+	font-weight: bold;
+	color: #390;
+}
+#wapper .box {
+	padding-bottom: 50px;
+}
+</style>
+</head>
+<body>
+<div id="wapper">
+  <div id="hadder">
+    <h1>リスト</h1>
+  </div>
+  <div class="coment">
+    <div class="box">
+      <dl>
+        <dt><a name="ul" id="ul"> ・ &lt;ul&gt;&lt;li&gt;～&lt;/li&gt;&lt;/ul&gt; </a></dt>
+        <dd>&lt;ul&gt;～&lt;/ul&gt;タグで、その範囲が順不同のリストであることを示し、項目の順序が重要でない箇条書きを作成したい場合に使用します。リスト表示される項目は、&lt;li&gt;～&lt;/li&gt;タグで指定します。</dd>
+        <dd>一般的なブラウザでは、各項目の先頭に黒丸（・）が付き、リスト全体がインデントして表示されます。</dd>
+      </dl>
+    </div>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> <a name="ol" id="ol">・ &lt;ol&gt;&lt;li&gt;～&lt;li&gt;&lt;ol&gt;</a> </dt>
+      <dd>&lt;ol&gt;～&lt;ol&gt;タグで、その範囲が番号つきのリストであることを示し、順番が重要なリストを作成したい場合に使用します。リスト表示される項目は、&lt;li&gt;～&lt;ol&gt;タグで指定します</dd>
+      <dd>各項目の先頭に連番の数字が付き、	一般的なブラウザではリスト全体がインデントして表示されます。</dd>
+    </dl>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> ・ list-style=type: ★ </dt>
+      <dd> "HTMLタグでの表記方法"…&lt;ul type="★"&gt;～&lt;/ul&gt;、&lt;li type="★"～&lt;/li&gt; </dd>
+      <dd>リストの各項目の先頭に表示されるマークの種類は、CSSのList-style-typeプロパティで変更できます。</dd>
+      <dd>リストの番号の種類を変更する場合にもlist-style-typeプロパティを使用します。</dd>
+      <dd>(★…disc、circle、square、none)</dd>
+      <dd>disc…黒丸（初期値）</dd>
+      <dd>circle…白丸</dd>
+      <dd>square…四角</dd>
+      <dd>none…マークなし</dd>
+    </dl>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> ・ list-style=type: ★ </dt>
+      <dd>"HTMLタグでの表記方法"…&lt;ol type="★"&gt;～&lt;/ol&gt;、&lt;li type="★"～&lt;/li&gt;</dd>
+      <dd>リストの各項目の先頭に表示される番号の種類は、CSSのlist-style-typeプロパティで変更できます。</dd>
+      <dd>(★…decimal、decimal-leading-zero、lower-roman 他下記参照)</dd>
+      <dd>decimal…10進数(1,2,3…）</dd>
+      <dd>decimal-leading-zero…0を頭に付けた10進数（01,02,03,…98,99）</dd>
+      <dd>lower-roman…小文字ローマ数字(i,ii,iii…)</dd>
+      <dd>upper-roman…大文字ローマ数字(I,II,III…)</dd>
+      <dd>upper-roman…大文字ローマ数字(I,II,III…)</dd>
+    </dl>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> ・ &lt;ol start="★"&gt;&lt;li&gt;～&lt;/li&gt;&lt;/ol&gt; </dt>
+      <dd>&lt;ol&gt;タグのstart属性で、リストの開始番号を指定できます。</dd>
+      <dd>(★…開始番号)</dd>
+    </dl>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> ・ &lt;ol&gt;&lt;li value="★"&gt;～&lt;/li&gt;&lt;/ol&gt; </dt>
+      <dd>&lt;ol&gt;タグのstart属性で、リストの開始番号を指定できます。</dd>
+      <dd>(★…番号)</dd>
+    </dl>
+  </div>
+  <div class="box">
+    <dl>
+      <dt> ・ &lt;dl&gt;&lt;dt&gt;～&lt;/dt&gt;&lt;dd&gt;～&lt;/dd&gt;&lt;/dl&gt; </dt>
+      <dd>&lt;dl&gt;～&lt;/dl&gt;でその範囲を定義リストに指定します。</dd>
+    </dl>
+  </div>
+</div>
+</body>
+</html>
